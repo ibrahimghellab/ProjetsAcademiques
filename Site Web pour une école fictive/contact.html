@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="./styles/contact.css">
+		<link rel="icon" href="./images/logo.png" type="image/x-icon">
+		<title>RGSE</title>
+	</head>
+	<body>
+		<details>
+			<summary>
+				Menu
+			</summary>
+			<a href="./acceuil.html">Accueil</a>
+			<a href="./formation.html">Formation</a>
+			<a class="ici" href="./contact.html">Contact</a>
+		</details>
+		<nav class="navbar">
+			<div class="nav-left">
+				<a href="acceuil.html">Accueil</a>
+				<a href="formation.html">Formation</a>
+				<a class="ici" href="contact.html">Contact</a>
+			</div>
+			<div class="nav-right">
+				<a href="acceuil.html"><img src="./images/logo.png" alt="LOGO"></a>
+			</div>
+		</nav>
+		<main>
+			<section class="formulaireprincipal">
+				<h1>Laissez-nous un message</h1>
+				<div class="formulaire">
+					<div class="form-container">
+						<form class="form">
+							<div class="form-group">
+								<div class="organisation_formulaire">
+									<input type="text" name="nom_utilisateur" placeholder="Nom" id="nom_de_l'nom_utilisateur" required>
+									<input type="text" name="prenom_utilisateur" placeholder="Prénom" required>
+									<input type="text" name="adress_mail" placeholder="E-mail" required>
+									<input type="tel" name="telephone" placeholder="Téléphone" required>
+									<textarea name="message" rows="4" cols="50" placeholder="Votre message..."></textarea>
+									<label for="formation">Séléctioner la formation qui vous intéresse :</label>
+									<select id="formation">
+										<option value="1ereoption">Cryptologie Avancée et Cybersécurité</option>
+										<option value="2eme_option">Survie en Milieux Hostiles et Sciences de la Nature</option>
+										<option value="3eme option"> Ingénierie Multidisciplinaire et Mathématiques Appliquées</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="submitreset">
+									<input type="submit" value="Envoyer">
+									<input type="reset"  value="Réinitialiser">
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="adresse">
+				<h1>Où nous trouver ?</h1>
+				<div class="carte">
+					<iframe src="https://my.atlist.com/map/f8af5ebe-0eb2-4269-91da-7a636f61f3b4?share=true" allow="geolocation 'self' https://my.atlist.com" width="100%" height="400px" loading="lazy" frameborder="0" scrolling="no" allowfullscreen></iframe>
+				</div>
+				<address>
+					<p>
+						Campus d'Orsay: 15 Avenue de la Technologie Virtuelle, Bloc 42 , 91400 Orsay
+					</p>
+					<p>
+						Campus de Marseille : 3 rue de la Réalitée Virtuelle, 13000 Marseille
+					</p>
+					<p>
+						Campus de Rennes : Bientot disponible au 8 voie de l'Inovation Ludique, 35000 Rennes
+					</p>
+				</address>
+			</section>
+			<section class="nouscontacter">
+				<h1>Nous contactez</h1>
+				<p>
+					Mail : rgse@e-campus.fr
+				</p>
+				<p>
+					Secréteriat des élèves : 01.69.76.85.44
+				</p>
+			</section>
+		</main>
+		<footer>
+			<div class="footer">
+				<div class="directeur">
+					<p>
+						GHELLAB Ibrahim
+					</p>
+					<p>
+						Directeur
+					</p>
+				</div>
+				<div class="directeur_adjoint">
+					<p>
+						VEERASINGAM Vinesh
+					</p>
+					<p>
+						Directeur adjoint
+					</p>
+				</div>
+			</div>
+			<a href="Rapport_Projet_Web_Vinesh__Ibrahim.docx">Télécharger le rapport en docx</a>
+			<a href="Rapport_Projet_Web_Vinesh__Ibrahim.pdf">Télécharger le rapport en PDF</a>
+			</footer>
+	</body>
+</html>
