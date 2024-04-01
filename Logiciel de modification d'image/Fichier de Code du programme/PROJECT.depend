@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1705010657 source:c:\users\jason zoh\documents\project image\project\main.cpp
+	"seance1.h"
+	<iostream>
+	<string>
+	<vector>
+
+1705011041 c:\users\jason zoh\documents\project image\project\seance1.h
+	<iostream>
+	<string>
+	<vector>
+	<cmath>
+
+1705011000 source:c:\users\jason zoh\documents\project image\project\seance1.cpp
+	"seance1.h"
+	<cmath>
+	<iostream>
+	<fstream>
+	<stdexcept>
+	<string>
+	<vector>
+
+1705010701 source:c:\users\jason zoh\documents\project image\project\maintest.cpp
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cmath>
+
+1706187633 source:z:\nouveau dossier\project image\project\main.cpp
+	"project_I.h"
+	<iostream>
+	<string>
+	<vector>
+
+1706188997 z:\nouveau dossier\project image\project\project_i.h
+	<iostream>
+	<string>
+	<vector>
+	<cmath>
+
+1705007100 source:z:\nouveau dossier\project image\project\maintest.cpp
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<cmath>
+
+1706189104 source:z:\nouveau dossier\project image\project\project_i.cpp
+	"project_I.h"
+	<cmath>
+	<iostream>
+	<fstream>
+	<stdexcept>
+	<string>
+	<vector>
+
